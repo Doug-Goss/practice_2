@@ -21,6 +21,7 @@
 		91310C7318BAF0A600B500B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91310C5518BAF0A600B500B4 /* UIKit.framework */; };
 		91310C7B18BAF0A600B500B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91310C7918BAF0A600B500B4 /* InfoPlist.strings */; };
 		91310C7D18BAF0A600B500B4 /* superCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91310C7C18BAF0A600B500B4 /* superCardTests.m */; };
+		91310C8818BAF15E00B500B4 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91310C8718BAF15E00B500B4 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		91310C7818BAF0A600B500B4 /* superCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "superCardTests-Info.plist"; sourceTree = "<group>"; };
 		91310C7A18BAF0A600B500B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91310C7C18BAF0A600B500B4 /* superCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = superCardTests.m; sourceTree = "<group>"; };
+		91310C8618BAF15E00B500B4 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		91310C8718BAF15E00B500B4 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				91310C6318BAF0A600B500B4 /* Main.storyboard */,
 				91310C6618BAF0A600B500B4 /* superCardViewController.h */,
 				91310C6718BAF0A600B500B4 /* superCardViewController.m */,
+				91310C8618BAF15E00B500B4 /* PlayingCardView.h */,
+				91310C8718BAF15E00B500B4 /* PlayingCardView.m */,
 				91310C6918BAF0A600B500B4 /* Images.xcassets */,
 				91310C5818BAF0A600B500B4 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91310C6218BAF0A600B500B4 /* superCardAppDelegate.m in Sources */,
+				91310C8818BAF15E00B500B4 /* PlayingCardView.m in Sources */,
 				91310C6818BAF0A600B500B4 /* superCardViewController.m in Sources */,
 				91310C5E18BAF0A600B500B4 /* main.m in Sources */,
 			);
